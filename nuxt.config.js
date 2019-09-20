@@ -46,7 +46,9 @@ module.exports = {
   plugins: [{ src: '~plugins/index.js', ssr: true }, { src: '~plugins/client.js', ssr: false }],
 
   modules: [],
-
+  generate: {
+    dir: 'public',
+  },
   build: {
     extend(config, ctx) {
       if (ctx.isDev && ctx.isClient) {
