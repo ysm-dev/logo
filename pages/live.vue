@@ -215,19 +215,22 @@ export default {
     users: {
       deep: true,
       handler(users) {
+        if (!users || users.length === 0) return
         if (this.prevUser.length < users.length) {
           for (let i = 0; i < users.length - this.prevUser.length; i++) {
             this.$message.info(`'${[...users].reverse()[i].name}'님이 입장하셨습니다.`)
           }
+        } else {
+          // const include = (users, user) => users.filter(u => u.name === user.name).length > 0
+          // const exitUser = users.filter(user => !include(this.prevUser, user))
+          // this.$message.error(`'${exitUser[0].name}'님이 퇴장하셨습니다.`)
         }
-        this.prevUser = users
+        this.prevUser = [...users]
       },
     },
     problem: {
       deep: true,
       handler(pro, OldPro) {
-        console.log(Date.now())
-        // console.log(pro, OldPro)
       },
     },
   },

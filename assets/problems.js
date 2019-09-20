@@ -196,7 +196,7 @@ export const problems = [
   {
     image: 'https://cdn.svgporn.com/logos/microsoft-edge.svg',
     answer: 'Edge',
-    level: 2,
+    level: 1,
   },
   {
     image: 'https://upload.wikimedia.org/wikipedia/ko/7/7a/Naver_whale_logo.png',
@@ -297,7 +297,7 @@ export const problems = [
   {
     image: 'https://free-astro.org/images/0/04/Debian_logo.png',
     answer: 'Debian',
-    level: 2,
+    level: 3,
   },
   {
     image: 'https://cdn.svgporn.com/logos/realm.svg',
@@ -368,7 +368,7 @@ export const problems = [
   {
     image: 'https://images.velog.io/post-images/chris/66c9a960-d91a-11e9-b01a-6d33db1dce75/image.png',
     answer: 'Blind',
-    level: 2,
+    level: 1,
   },
   {
     image: 'https://cdn.svgporn.com/logos/duckduckgo.svg',
