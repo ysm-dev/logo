@@ -1,0 +1,32 @@
+{
+  "name": "io-live",
+  "version": "1.0.0",
+  "description": "My brilliant Nuxt.js project",
+  "author": "Chris Yang",
+  "private": true,
+  "scripts": {
+    "dev": "HOST=0.0.0.0 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "predeploy": "npm run generate",
+    "deploy": "gh-pages -d dist -b master --dotfiles true"
+  },
+  "dependencies": {
+    "ant-design-vue": "^1.3.8",
+    "firebase": "^5.11.1",
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.12.0",
+    "nuxt": "^2.6.3",
+    "sass-loader": "^7.1.0",
+    "vuefire": "^1.4.5"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-vue": "^5.2.2"
+  }
+}
