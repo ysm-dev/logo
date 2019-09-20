@@ -20,7 +20,7 @@
     <div class="main">
       <div class="link"
            v-show="!isCounting && !isStarted">
-        bit.ly/io-game
+        https://logo.ysm.now.sh
       </div>
       <a-button class="start"
                 shape="circle"
