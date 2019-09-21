@@ -270,7 +270,7 @@ export const problems = [
     level: 2,
   },
   {
-    image: 'https://cdn.svgporn.com/logos/kafka-icon.svg',
+    image: 'https://images.velog.io/post-images/chris/8257c060-dbc5-11e9-8ca2-03cbe4c24e73/image.png',
     answer: 'Apache Kafka',
     level: 2,
   },
@@ -418,7 +418,7 @@ export const problems = [
   {
     image: 'https://png.pngtree.com/svg/20170507/74c76e6f9d.png',
     answer: 'Stackoverflow',
-    level: 2,
+    level: 1,
   },
   {
     image:
@@ -911,6 +911,96 @@ export const problems = [
     image: 'https://images.velog.io/post-images/chris/63cd76e0-dabb-11e9-8ddc-e11ad008bd89/image.png',
     answer: 'Waymo',
     level: 3,
+  },
+  {
+    image: 'https://images.velog.io/post-images/chris/713587b0-dbc3-11e9-99bb-b3f42aa089dd/image.png',
+    answer: 'Flipboard',
+    level: 3,
+  },
+  {
+    image: 'https://images.velog.io/post-images/chris/c9b615d0-dbc3-11e9-8ca2-03cbe4c24e73/image.png',
+    answer: 'Pocket',
+    level: 3,
+  },
+  {
+    image: 'https://images.velog.io/post-images/chris/09468400-dbc4-11e9-8ca2-03cbe4c24e73/image.png',
+    answer: 'Atom',
+    level: 1,
+  },
+  {
+    image: 'https://images.velog.io/post-images/chris/23212b00-dbc4-11e9-9710-596c48f8d902/image.png',
+    answer: 'Shazam',
+    level: 3,
+  },
+  {
+    image: 'https://images.velog.io/post-images/chris/3f48cf40-dbc4-11e9-8ca2-03cbe4c24e73/image.png',
+    answer: 'AWS Cloudfront',
+    level: 3,
+  },
+  {
+    image: 'https://images.velog.io/post-images/chris/59f656a0-dbc4-11e9-99bb-b3f42aa089dd/image.png',
+    answer: 'AWS Route 53',
+    level: 3,
+  },
+  {
+    image: 'https://images.velog.io/post-images/chris/70ce1de0-dbc4-11e9-99bb-b3f42aa089dd/image.png',
+    answer: 'AWS EC2 (Elastic Compute Cloud)',
+    level: 3,
+  },
+  {
+    image: 'https://images.velog.io/post-images/chris/9ae9fe50-dbc4-11e9-99bb-b3f42aa089dd/image.png',
+    answer: 'Bitbucket',
+    level: 2,
+  },
+  {
+    image: 'https://images.velog.io/post-images/chris/b5f9a2e0-dbc4-11e9-8ca2-03cbe4c24e73/image.png',
+    answer: 'Bootstrap',
+    level: 2,
+  },
+  {
+    image: 'https://images.velog.io/post-images/chris/e54be4e0-dbc4-11e9-8ca2-03cbe4c24e73/image.png',
+    answer: 'Code Sandbox',
+    level: 2,
+  },
+  {
+    image: 'https://images.velog.io/post-images/chris/a734b3c0-dbc5-11e9-8ca2-03cbe4c24e73/image.png',
+    answer: 'Linux Tux',
+    level: 2,
+  },
+  {
+    image: 'https://images.velog.io/post-images/chris/c2559660-dbc5-11e9-8dd1-efe8e1cea0cd/image.png',
+    answer: 'MariaDB',
+    level: 3,
+  },
+  {
+    image: 'https://images.velog.io/post-images/chris/055bca60-dbc6-11e9-99bb-b3f42aa089dd/image.png',
+    answer: 'Prettier',
+    level: 2,
+  },
+  {
+    image: 'https://images.velog.io/post-images/chris/7f5ba1f0-dbc6-11e9-8ca2-03cbe4c24e73/image.png',
+    answer: 'Gradle',
+    level: 2,
+  },
+  {
+    image: 'https://images.velog.io/post-images/chris/f7b26fb0-dc0e-11e9-a98c-77e878c529c7/image.png',
+    answer: 'Firefox Focus',
+    level: 3,
+  },
+  {
+    image: 'https://images.velog.io/post-images/chris/19fafc90-dc0f-11e9-a98c-77e878c529c7/image.png',
+    answer: 'Kakao Taxi',
+    level: 1,
+  },
+  {
+    image: 'https://images.velog.io/post-images/chris/5ad80f00-dc0f-11e9-920f-9faaccb2a511/image.png',
+    answer: 'Apple Music',
+    level: 2,
+  },
+  {
+    image: 'https://images.velog.io/post-images/chris/8b92e1b0-dc0f-11e9-a98c-77e878c529c7/image.png',
+    answer: 'Soundcloud',
+    level: 2,
   },
 ]
   .sort((a, b) => (a.answer > b.answer ? 1 : -1))
