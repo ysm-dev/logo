@@ -750,7 +750,7 @@ export const problems = [
   {
     image: 'https://images.velog.io/post-images/chris/0d76e1b0-d91b-11e9-998d-d54feb65a303/image.png',
     answer: 'Azar',
-    level: 2,
+    level: 1,
   },
   {
     image: 'https://images.velog.io/post-images/chris/2660e720-d91b-11e9-950a-25c721d3ae68/image.png',
