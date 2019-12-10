@@ -38,6 +38,7 @@ export default {
       name: '',
       status: '',
       message: '',
+      users: [],
     }
   },
   firebase: {
@@ -49,6 +50,7 @@ export default {
   methods: {
     input(e) {
       this.name = e.target.value
+      console.log(this.users)
       if (this.users.filter(user => user.name === this.name).length !== 0) {
         this.message = '중복된 이름이 있습니다!'
         this.status = 'error'

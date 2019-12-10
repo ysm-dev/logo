@@ -12,7 +12,7 @@ module.exports = {
       { property: 'og:title', hid: 'og:title', content: `Logo Game` },
       { property: 'og:description', hid: 'og:description', content: `로고 맞추기 게임` },
       { property: 'og:type', content: 'website' },
-      { property: 'og:url', hid: 'og:url', content: 'https://io-live.github.io/' },
+      { property: 'og:url', hid: 'og:url', content: 'https://logo.ysm.now.sh/..' },
       {
         property: 'og:image',
         hid: 'og:image',
@@ -43,7 +43,7 @@ module.exports = {
 
   css: [],
 
-  plugins: [{ src: '~plugins/index.js', ssr: true }, { src: '~plugins/client.js', ssr: false }],
+  plugins: [{ src: '~plugins/index.js' }],
 
   modules: [],
   generate: {

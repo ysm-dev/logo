@@ -34,8 +34,8 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 0px; /* remove scrollbar space */
-  background: transparent; /* optional: just make scrollbar invisible */
+  width: 0px;
+  background: transparent;
 }
 
 @keyframes fadeOut {
@@ -78,7 +78,6 @@ $ease: cubic-bezier(0, 0, 0.2, 1);
 $overshoot: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 $easeout: cubic-bezier(0.215, 0.61, 0.355, 1);
 
-
 .fade-enter-active {
   animation: fadeIn 0.2s $ease;
 }
@@ -94,5 +93,4 @@ $easeout: cubic-bezier(0.215, 0.61, 0.355, 1);
 .scale-leave-active {
   animation: scale-out 0.1s $easeout;
 }
-
 </style>

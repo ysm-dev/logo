@@ -340,7 +340,7 @@ export const problems = [
     level: 2,
   },
   {
-    image: 'https://i.dlpng.com/static/png/404295_thumb.png',
+    image: 'https://images.velog.io/post-images/chris/9b1ea340-1b88-11ea-aa7b-6146b4d9ee59/image.png',
     answer: 'DigitalOcean',
     level: 2,
   },
@@ -475,7 +475,7 @@ export const problems = [
     level: 2,
   },
   {
-    image: 'https://img.stackshare.io/service/64/JDKNOknx.png',
+    image: 'https://images.velog.io/post-images/chris/e1996490-1b88-11ea-8e80-635abe33b1fb/image.png',
     answer: 'Google Analytics',
     level: 2,
   },
@@ -692,7 +692,7 @@ export const problems = [
     level: 3,
   },
   {
-    image: 'https://cdn.svgporn.com/logos/haskell.svg',
+    image: 'https://images.velog.io/post-images/chris/badfc1f0-1b88-11ea-aa7b-6146b4d9ee59/image.png',
     answer: 'Haskell',
     level: 3,
   },
@@ -1005,7 +1005,3 @@ export const problems = [
 ]
   .sort((a, b) => (a.answer > b.answer ? 1 : -1))
   .sort((a, b) => a.level - b.level)
-
-console.log(problems.filter(p => p.level === 1).length)
-console.log(problems.filter(p => p.level === 2).length)
-console.log(problems.filter(p => p.level === 3).length)

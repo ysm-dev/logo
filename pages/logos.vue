@@ -15,7 +15,6 @@
 </template>
 
 <script>
-import db from '../plugins/db.js'
 import { problems } from '@/assets/problems.js'
 
 export default {
@@ -25,16 +24,12 @@ export default {
     }
   },
   methods: {
-    backgroundColor(lev) {
-      if (lev === 1) {
-        return 'rgba(114,181,102,.8)'
-      } else if (lev === 2) {
-        return 'rgba(231,175,95,.8)'
-      } else if (lev === 3) {
-        return 'rgba(203,92,84,.8)'
-      }
-      return ''
-    },
+    backgroundColor: lev =>
+      ({
+        1: 'rgba(114,181,102,.8)',
+        2: 'rgba(231,175,95,.8)',
+        3: 'rgba(203,92,84,.8)',
+      }[lev]),
   },
 }
 </script>
@@ -51,7 +46,6 @@ export default {
     border-radius: 8px;
     border: 1px solid rgba(0, 0, 0, 0.5);
     img {
-      /* border-bottom: 1px solid rgba(0, 0, 0, 0.5); */
       justify-self: center;
       min-width: 80px;
       max-width: 100px;

@@ -12,7 +12,6 @@ Vue.use(VueFire)
     apiKey: 'AIzaSyDJ4qZYsONCZBiMMx8l1w76qMK3jSUbmIo',
     databaseURL: 'https://io-live.firebaseio.com/',
   })
-
 Vue.config.productionTip = false
 
 Vue.use(Antd)
@@ -25,4 +24,3 @@ Vue.mixin({
     appearActiveClass: 'fade-enter-active',
   },
 })
-

@@ -1,11 +1,5 @@
 <template>
   <div class="container">
-    <!-- <div v-for="user in users"
-         :key="user.uid"
-         class="name"
-         :style="getRandomPosition()">
-      {{ user.name }}
-    </div> -->
     <div class="header">
       <img class="logo"
            src="https://storage.googleapis.com/io-19-assets/images/global/hashtag.gif" />
@@ -20,7 +14,7 @@
     <div class="main">
       <div class="link"
            v-show="!isCounting && !isStarted">
-        https://logo.ysm.now.sh
+        {{ $route.query.url || '' }}
       </div>
       <a-button class="start"
                 shape="circle"
@@ -230,8 +224,7 @@ export default {
     },
     problem: {
       deep: true,
-      handler(pro, OldPro) {
-      },
+      handler(pro, OldPro) {},
     },
   },
   computed: {

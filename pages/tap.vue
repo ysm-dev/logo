@@ -3,9 +3,6 @@
     <div class="header">
       <img class="logo"
            src="https://storage.googleapis.com/io-19-assets/images/global/hashtag.gif" />
-      <!-- <div class="name">
-        {{ user && user.name }}
-      </div> -->
       <img class="people__icon"
            src="https://images.velog.io/post-images/chris/65105e50-6f27-11e9-bd0f-b56b5afb4279/people.svg" />
       <div class="people__count">{{ users.length }}</div>
@@ -106,7 +103,6 @@ export default {
     tap() {
       if (!this.user.isTapped) {
         db.ref(`/users/${this.$route.query.key}/isTapped`).set(true)
-        // const tapTime = Date.now() - this.problem['.value'][this.status.problemNumber].startTime
         const tapTime = firebase.database.ServerValue.TIMESTAMP
         db.ref(`/problem/${this.status.problemNumber}/rank`)
           .push({
@@ -123,8 +119,6 @@ export default {
                 .sort((a, b) => rank[a].tapTime - rank[b].tapTime)
                 .findIndex(k => k === e.key) + 1
             this.showRank = true
-            // setTimeout(() => {
-            // }, 100)
           })
       }
     },
